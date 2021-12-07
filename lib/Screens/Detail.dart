@@ -91,20 +91,20 @@ class _DetailState extends State<Detail> {
                         setWallpaper();
                       }
                     },
-                    // child: Container(
-                    //   margin: EdgeInsets.all(10),
-                    //   decoration: BoxDecoration(
-                    //     color: Colors.white60,
-                    //     borderRadius: BorderRadius.circular(50),
-                    //   ),
-                    //   child: Padding(
-                    //     padding: const EdgeInsets.all(18.0),
-                    //     child: Text(
-                    //       "Set Wallpaper",
-                    //       style: TextStyle(color: Colors.black),
-                    //     ),
-                    //   ),
-                    // ),
+                    child: Container(
+                      margin: EdgeInsets.all(10),
+                      decoration: BoxDecoration(
+                        color: Colors.white60,
+                        borderRadius: BorderRadius.circular(50),
+                      ),
+                      child: Padding(
+                        padding: const EdgeInsets.all(18.0),
+                        child: Text(
+                          "Set Wallpaper",
+                          style: TextStyle(color: Colors.black),
+                        ),
+                      ),
+                    ),
                   ),
           ),
         ),
