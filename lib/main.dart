@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
           create: (context) => CategoryWallpaperBloc(),
           child: MaterialApp(
             debugShowCheckedModeBanner: false,
-            title: 'Pexels-projecct',
+            title: 'Pexels-project',
             theme: ThemeData(
                 brightness: Brightness.light,
                 cardColor: Colors.white38,
