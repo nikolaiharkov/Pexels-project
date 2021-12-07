@@ -1,5 +1,5 @@
 ///Get API key from https://www.pexels.com/api/
-final String apiKey = "";
+final String apiKey = "563492ad6f91700001000001eefd7b1c1f334c8f9cf6f5085b0bcd25";
 final String editorChoiceEndPoint =
     "https://api.pexels.com/v1/search?query=wallpaper";
 final String perPageLimit = "&per_page=30";
