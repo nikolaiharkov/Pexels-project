@@ -1,4 +1,4 @@
-import 'package:wallbay/Model/wallpaper.dart';
+import 'package:Pexels-project/Model/wallpaper.dart';
 
 abstract class WallpaperState {}
 

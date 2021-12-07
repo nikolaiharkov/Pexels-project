@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:wallbay/Model/cateogry.dart';
-import 'package:wallbay/Screens/Category.dart' as category;
+import 'package:Pexels-project/Model/cateogry.dart';
+import 'package:Pexels-project/Screens/Category.dart' as category;
 
 class CategoryList extends StatefulWidget {
   @override

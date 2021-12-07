@@ -1,11 +1,11 @@
 import 'dart:convert';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:wallbay/Bloc/wallpaperEvent.dart';
-import 'package:wallbay/Bloc/wallpaperState.dart';
-import 'package:wallbay/Model/wallpaper.dart';
+import 'package:Pexels-project/Bloc/wallpaperEvent.dart';
+import 'package:Pexels-project/Bloc/wallpaperState.dart';
+import 'package:Pexels-project/Model/wallpaper.dart';
 import 'package:http/http.dart' as http;
-import 'package:wallbay/const.dart';
+import 'package:Pexels-project/const.dart';
 
 class CategoryWallpaperBloc extends Bloc<WallpaperEvent, WallpaperState> {
   List<Wallpaper> _categoryWallpaper = List<Wallpaper>();
