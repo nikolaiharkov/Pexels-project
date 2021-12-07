@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
           create: (context) => CategoryWallpaperBloc(),
           child: MaterialApp(
             debugShowCheckedModeBanner: false,
-            title: 'Wallbay',
+            title: 'Pexels-project',
             theme: ThemeData(
                 brightness: Brightness.light,
                 cardColor: Colors.white38,
@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
             //     primaryColor: Colors.black,
             //     dialogBackgroundColor: Colors.black,
             //     cardColor: Colors.white38),
-            home: MyHomePage('Wallbay'),
+            home: MyHomePage('Pexels-project'),
           ),
         ),
       ),
