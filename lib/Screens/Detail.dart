@@ -26,7 +26,7 @@ class _DetailState extends State<Detail> {
   _permissionRequest() async {
     final permissionValidator = EasyPermissionValidator(
       context: context,
-      appName: 'Wallbay',
+      appName: 'pexelsproject',
     );
     var result = await permissionValidator.storage();
     if (result) {
@@ -91,20 +91,20 @@ class _DetailState extends State<Detail> {
                         setWallpaper();
                       }
                     },
-                    child: Container(
-                      margin: EdgeInsets.all(10),
-                      decoration: BoxDecoration(
-                        color: Colors.white60,
-                        borderRadius: BorderRadius.circular(50),
-                      ),
-                      child: Padding(
-                        padding: const EdgeInsets.all(18.0),
-                        child: Text(
-                          "Set Wallpaper",
-                          style: TextStyle(color: Colors.black),
-                        ),
-                      ),
-                    ),
+                    // child: Container(
+                    //   margin: EdgeInsets.all(10),
+                    //   decoration: BoxDecoration(
+                    //     color: Colors.white60,
+                    //     borderRadius: BorderRadius.circular(50),
+                    //   ),
+                    //   child: Padding(
+                    //     padding: const EdgeInsets.all(18.0),
+                    //     child: Text(
+                    //       "Set Wallpaper",
+                    //       style: TextStyle(color: Colors.black),
+                    //     ),
+                    //   ),
+                    // ),
                   ),
           ),
         ),
@@ -118,7 +118,7 @@ class _DetailState extends State<Detail> {
     Dio dio = new Dio();
     dio.download(
       widget.wallpaper.original,
-      "${dir.path}/wallbay.png",
+      "${dir.path}/pexelsproject.png",
       onReceiveProgress: (received, total) {
         if (total != -1) {
           String downloadingPer =
@@ -146,7 +146,7 @@ class _DetailState extends State<Detail> {
                 children: [
                   GFButton(
                     onPressed: () {
-                      initPlatformState("${dir.path}/wallbay.png",
+                      initPlatformState("${dir.path}/pexelsproject.png",
                           WallpaperManager.HOME_SCREEN);
                       Navigator.pop(context);
                     },
@@ -154,7 +154,7 @@ class _DetailState extends State<Detail> {
                   ),
                   GFButton(
                     onPressed: () {
-                      initPlatformState("${dir.path}/wallbay.png",
+                      initPlatformState("${dir.path}/pexelsproject.png",
                           WallpaperManager.LOCK_SCREEN);
                       Navigator.pop(context);
                     },
@@ -162,7 +162,7 @@ class _DetailState extends State<Detail> {
                   ),
                   GFButton(
                     onPressed: () {
-                      initPlatformState("${dir.path}/wallbay.png",
+                      initPlatformState("${dir.path}/pexelsproject.png",
                           WallpaperManager.BOTH_SCREENS);
                       Navigator.pop(context);
                     },
