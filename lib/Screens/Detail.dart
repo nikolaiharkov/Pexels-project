@@ -4,7 +4,7 @@ import 'package:dio/dio.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:getwidget/components/button/gf_button.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:Pexels-project/Model/wallpaper.dart';
+import 'package:pexelsproject/Model/wallpaper.dart';
 import 'package:flutter/services.dart';
 import 'package:easy_permission_validator/easy_permission_validator.dart';
 import 'package:wallpaper_manager/wallpaper_manager.dart';

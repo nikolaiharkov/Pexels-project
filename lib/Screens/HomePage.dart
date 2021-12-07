@@ -2,12 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
-import 'package:Pexels-project/Bloc/wallpaperBloc.dart';
-import 'package:Pexels-project/Bloc/wallpaperEvent.dart';
-import 'package:Pexels-project/Screens/CategoryList.dart' as categoryScreen;
-import 'package:Pexels-project/Screens/EditorChoice.dart';
-import 'package:Pexels-project/Screens/Search.dart';
-import 'package:Pexels-project/Screens/Setting.dart';
+import 'package:pexelsproject/Bloc/wallpaperBloc.dart';
+import 'package:pexelsproject/Bloc/wallpaperEvent.dart';
+import 'package:pexelsproject/Screens/CategoryList.dart' as categoryScreen;
+import 'package:pexelsproject/Screens/EditorChoice.dart';
+import 'package:pexelsproject/Screens/Search.dart';
+import 'package:pexelsproject/Screens/Setting.dart';
 
 class MyHomePage extends StatefulWidget {
   final String title;

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:package_info/package_info.dart';
 import 'package:share/share.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:Pexels-project/const.dart';
+import 'package:pexelsproject/const.dart';
 
 class Setting extends StatefulWidget {
   @override

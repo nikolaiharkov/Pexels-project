@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:Pexels-project/Bloc/categoryWallpaperBloc.dart';
-import 'package:Pexels-project/Bloc/searchWallpaperBloc.dart';
-import 'package:Pexels-project/Bloc/wallpaperBloc.dart';
-import 'package:Pexels-project/Screens/HomePage.dart';
+import 'package:pexelsproject/Bloc/categoryWallpaperBloc.dart';
+import 'package:pexelsproject/Bloc/searchWallpaperBloc.dart';
+import 'package:pexelsproject/Bloc/wallpaperBloc.dart';
+import 'package:pexelsproject/Screens/HomePage.dart';
 import 'package:flutter/services.dart';
 
 void main() {
