@@ -1,0 +1,4 @@
+#Tue Dec 07 14:48:13 ICT 2021
+base.0=F\:\\Pexels-project\\build\\app\\intermediates\\transforms\\r8\\release\\1
+renamed.0=classes.dex
+path.0=classes.dex

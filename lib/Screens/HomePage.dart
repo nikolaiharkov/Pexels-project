@@ -63,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
         elevation: 0.0,
         title: Text(
           widget.title,
-          style: TextStyle(fontFamily: 'Raleway'),
+          style: TextStyle(fontFamily: 'Raleway', color: Colors.black),
         ),
         centerTitle: true,
         actions: <Widget>[

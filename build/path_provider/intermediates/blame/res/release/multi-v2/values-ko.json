@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\Pexels-project\\build\\path_provider\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ko\\values-ko.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Nikooooooooooooooooo\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\8d581ad9bcaede82a27c09b3109cb62b\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "F:\\Pexels-project\\build\\path_provider\\intermediates\\res\\merged\\release\\values-ko\\values-ko.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Nikooooooooooooooooo\\.gradle\\caches\\transforms-1\\files-1.1\\core-1.1.0.aar\\8d581ad9bcaede82a27c09b3109cb62b\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
